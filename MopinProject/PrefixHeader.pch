@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  MopinProject
+//
+//  Created by rt008 on 15/11/23.
+//  Copyright (c) 2015年 rt008. All rights reserved.
+//
+
+#ifndef MopinProject_PrefixHeader_pch
+#define MopinProject_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "BaseSuperViewController.h"
+#import "ZKFHeader.h"
+#import "TitleHeader.h"
+
+#import "SVProgressHUD.h"
+#import "DictionaryTool.h"
+#import "HTTPMethod.h"
+#import "PersonalInfoSingleModel.h"
+#import "PublicWelfareManager.h"
+#import "MJRefresh.h"
+#import "UIViewExt.h"
+#import "PublicWelfareManager.h"  //公益管理
+#endif

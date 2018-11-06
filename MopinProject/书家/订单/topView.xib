@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="en1-gb-hQ0">
+            <rect key="frame" x="0.0" y="0.0" width="403" height="92"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Location_148px_1194795_easyicon.net@2x.png" translatesAutoresizingMaskIntoConstraints="NO" id="7A3-Fa-fFs">
+                    <rect key="frame" x="30" y="18" width="15" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="rO1-L2-iMd"/>
+                        <constraint firstAttribute="width" constant="15" id="xMr-cL-EUo"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="墨品定制" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjB-ll-S6y">
+                    <rect key="frame" x="53" y="18" width="93" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="93" id="Mvl-Uy-MMd"/>
+                        <constraint firstAttribute="height" constant="21" id="Yfu-Rx-FY8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="北京市东城区朝阳门内大街288号凯德华玺大厦901" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVa-ZC-bRW">
+                    <rect key="frame" x="50" y="47" width="316" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.44647648358585856" green="0.44647648358585856" blue="0.44647648358585856" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bar_envelope.png" translatesAutoresizingMaskIntoConstraints="NO" id="z5y-FA-LV9">
+                    <rect key="frame" x="0.0" y="82" width="403" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="5" id="EHH-Yo-f9W"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="mVa-ZC-bRW" firstAttribute="top" secondItem="vjB-ll-S6y" secondAttribute="bottom" constant="8" id="65F-CS-1rC"/>
+                <constraint firstItem="7A3-Fa-fFs" firstAttribute="leading" secondItem="en1-gb-hQ0" secondAttribute="leading" constant="30" id="8OG-Jl-UDM"/>
+                <constraint firstItem="vjB-ll-S6y" firstAttribute="leading" secondItem="7A3-Fa-fFs" secondAttribute="trailing" constant="8" id="H8t-8H-JLe"/>
+                <constraint firstItem="7A3-Fa-fFs" firstAttribute="top" secondItem="en1-gb-hQ0" secondAttribute="top" constant="18" id="OlG-Ja-ZrK"/>
+                <constraint firstAttribute="bottom" secondItem="z5y-FA-LV9" secondAttribute="bottom" constant="-2" id="XHa-m9-wEc"/>
+                <constraint firstItem="z5y-FA-LV9" firstAttribute="leading" secondItem="en1-gb-hQ0" secondAttribute="leading" id="aV9-ge-S8U"/>
+                <constraint firstAttribute="trailing" secondItem="z5y-FA-LV9" secondAttribute="trailing" id="iT9-9e-4w6"/>
+                <constraint firstItem="vjB-ll-S6y" firstAttribute="top" secondItem="en1-gb-hQ0" secondAttribute="top" constant="18" id="rj1-fQ-Olq"/>
+                <constraint firstAttribute="trailing" secondItem="mVa-ZC-bRW" secondAttribute="trailing" constant="37" id="tUe-t2-trf"/>
+                <constraint firstItem="mVa-ZC-bRW" firstAttribute="leading" secondItem="en1-gb-hQ0" secondAttribute="leading" constant="50" id="udk-XG-JE5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="523.5" y="-331"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Location_148px_1194795_easyicon.net@2x.png" width="16" height="16"/>
+        <image name="bar_envelope.png" width="750" height="6"/>
+    </resources>
+</document>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PenmanListCell" id="KGk-i7-Jjw" customClass="PenmanListCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="305"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="304.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" id="Fdf-KO-B3j">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="295"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="MeE-86-FE2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="185"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.89019607840000003" green="0.83137254900000002" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="张出名" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gGk-Vg-bL4">
+                                <rect key="frame" x="30" y="184" width="109" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="湖南省文化研究院副院长，北京唐风美术馆" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tyh-pK-qrl">
+                                <rect key="frame" x="30" y="235" width="260" height="21"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="润格 500元/平尺   均价 100元/件" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="XtD-6U-MbI">
+                                <rect key="frame" x="30" y="262" width="260" height="21"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" id="Bxt-vd-nX4">
+                                <rect key="frame" x="109" y="201" width="73" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ming_penmanList.png" id="JHl-79-kmz">
+                                        <rect key="frame" x="0.0" y="0.0" width="21" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qian_penmanList.png" id="PWa-Ix-MUc">
+                                        <rect key="frame" x="26" y="0.0" width="21" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="up_icon_penmanList.png" id="10Z-QC-C8L">
+                                        <rect key="frame" x="52" y="0.0" width="21" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AQc-ig-I7k">
+                                <rect key="frame" x="190" y="197" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="取消关注" backgroundImage="gary_button_sample.png">
+                                    <color key="titleColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelCareBtnClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="JfL-yN-CaP"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red_sign.png" id="zYF-jg-Rju">
+                                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bgView" destination="Fdf-KO-B3j" id="3TJ-Jo-9ys"/>
+                <outlet property="cancelBtn" destination="AQc-ig-I7k" id="0hG-ua-Zh4"/>
+                <outlet property="iconBgView" destination="Bxt-vd-nX4" id="j9A-Xm-cgY"/>
+                <outlet property="introLabel" destination="Tyh-pK-qrl" id="aw6-n1-ZgE"/>
+                <outlet property="isBookIcon" destination="PWa-Ix-MUc" id="QDv-mZ-5tA"/>
+                <outlet property="nameLabel" destination="gGk-Vg-bL4" id="GfD-Wn-sdq"/>
+                <outlet property="penmanTypeIcon" destination="JHl-79-kmz" id="9OU-YQ-Ra1"/>
+                <outlet property="priceLabel" destination="XtD-6U-MbI" id="1EE-e6-x6P"/>
+                <outlet property="publicImageIcon" destination="zYF-jg-Rju" id="Bae-RR-Fiv"/>
+                <outlet property="topImageView" destination="MeE-86-FE2" id="awe-iD-Kt5"/>
+                <outlet property="trendIcon" destination="10Z-QC-C8L" id="Ijo-Nb-Zfg"/>
+            </connections>
+            <point key="canvasLocation" x="342" y="346.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="gary_button_sample.png" width="85" height="35"/>
+        <image name="ming_penmanList.png" width="21" height="21"/>
+        <image name="qian_penmanList.png" width="21" height="21"/>
+        <image name="red_sign.png" width="49" height="49"/>
+        <image name="up_icon_penmanList.png" width="21" height="21"/>
+    </resources>
+</document>
